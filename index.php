@@ -1,5 +1,5 @@
 <?php
-	$name = "Inari-Kami";
+	$name = "Inari";
 ?>
 
 <html>
