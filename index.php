@@ -1,3 +1,7 @@
+<?php
+	$name = "Inari-Kami";
+?>
+
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -5,7 +9,7 @@
 
 <body>
 	<?php
-	echo "<h1>name</h1>";
+	echo "<h1>Hallo ".$name."</h1>";
 	?>
 </body>
 </html>
