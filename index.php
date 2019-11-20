@@ -1,12 +1,9 @@
 <?php
-<<<<<<< HEAD
 	$name = " ";
 	if (isset($_GET['name'])){
 		$name = $_GET['name'];
 	}
-=======
 	$name = "Inari";
->>>>>>> ea7fe2119f3e6ecbdd6af7261e34fba7b4c6cfbe
 ?>
 
 <html>
