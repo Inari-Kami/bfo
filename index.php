@@ -1,5 +1,8 @@
 <?php
-	$name = "Inari-Kami";
+	$name = " ";
+	if (isset($_GET['name'])){
+		$name = $_GET['name'];
+	}
 ?>
 
 <html>
@@ -11,5 +14,9 @@
 	<?php
 	echo "<h1>Hallo ".$name."</h1>";
 	?>
+	<form>
+		<input type="text" name="name">
+		<input type="submit">
+	</form>
 </body>
 </html>
